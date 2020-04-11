@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    android:orientation="vertical" >
+    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="104dp"
+                android:orientation="horizontal" >
+                
+                <Button
+                    android:id="@+id/buttonDraw"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorDrawline"
+                    android:layout_weight="1"
+                    android:layout_margin="2dp"
+                    android:text="Touch Points"
+                    android:textColor="@color/colorwhite" />
+
+            <Button
+                android:id="@+id/buttonSeparation"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/colorSeparation"
+                android:text="Separation" 
+                android:textColor="@color/colorwhite"/>
+            
+            <Button
+                android:id="@+id/buttonJitter"
+                style="android:buttonStyle"
+                android:layout_width="108dp"
+                android:layout_height="match_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@color/colorJitter"
+                android:text="@string/jitter" 
+                android:textColor="@color/colorwhite"/>
+            
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="104dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/buttonNoise"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorNoise"
+                    android:text="@string/noise" 
+                    android:textColor="@color/colorwhite"/>
+
+                <Button
+                    android:id="@+id/buttonAccuracy"
+                    style="android:buttonStyle"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccuracy"
+                    android:text="@string/accuracy" 
+                    android:textColor="@color/colorwhite"/>
+                
+                <Button
+                    android:id="@+id/buttonFlick"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorFlick"
+                    android:text="@string/flick" 
+                    android:textColor="@color/colorwhite"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="104dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/buttonWater"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorWater"
+                    android:text="@string/water" 
+                    android:textColor="@color/colorwhite"/>
+
+                <Button
+                    android:id="@+id/buttonReference"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorReference"
+                    android:text="Reference"
+                    android:textColor="@color/colorwhite" />
+                
+                <Button
+                    android:id="@+id/buttonDelta"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorDelta"
+                    android:text="Delta" 
+                    android:textColor="@color/colorwhite"/>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+    
+    
+</LinearLayout>

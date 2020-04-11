@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.donggang.maxtouch_tester"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.donggang.maxtouch_tester.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Maxtouch Tester V1.x"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.donggang.maxtouch_tester.ManualEntry"
+            android:label="Manual Test"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.drawline.DrawLineActivity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.accuracy.AccuracyActivity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.jitter.JitterActivity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.flick.FlickActivity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.separation.SeparationActivity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.waterproof.WaterproofActivity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.waterproof.WaterTest_01_Activity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.waterproof.WaterTest_02_Activity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.waterproof.WaterTest_03_Activity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.waterproof.WaterTest_04_Activity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.waterproof.WaterTest_05_Activity"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.Information"></activity>
+        <activity android:name="com.donggang.maxtouch_tester.reference.ReferenceActivity"></activity>
+    </application>
+
+</manifest>

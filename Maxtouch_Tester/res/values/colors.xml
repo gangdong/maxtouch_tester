@@ -1,0 +1,16 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="colorred">#ff0000</color>
+	<color name="colorwhite">#ffffff</color>
+	<color name="colorbackground">#0099cc</color>
+	<color name="colorDrawline">#aa33aa</color>
+	<color name="colorSeparation">#00ca0a</color>
+	<color name="colorJitter">#4030aa</color>
+	<color name="colorNoise">#054180</color>
+	<color name="colorAccuracy">#d0f000</color>
+	<color name="colorFlick">#e54180</color>
+	<color name="colorWater">#0ff0ef</color>
+	<color name="colorReference">#31994a</color>
+	<color name="colorDelta">#ffb94a</color>
+</resources>
