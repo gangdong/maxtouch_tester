@@ -1,2 +1,2 @@
 # maxtouch_tester
-an android project for touch panel function verification &amp; evaluation on android phone
+an android application that verifies the touch panel function on android device.
