@@ -1,6 +1,6 @@
 # maxtouch_tester
-#### an android application that verifies the touch panel function on android device.
-**开发平台**
+#### an android application that verifies the touch screen function on android device.
+**Development Platform**
 eclipse + ADT 
-**运行**
+**Running on**
 android platform
